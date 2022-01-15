@@ -1,8 +1,49 @@
+/* -----------------------
+Midium divices
+-------------------------- */
+
+@media only screen and (max-width: 1200px) {
+  .items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .left-details {
+    order: 2;
+  }
+  .mega-menu {
+    padding: 2rem;
+  }
+  .form input {
+    width: 50%;
+  }
+  .e-commerce img {
+    width: 60px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .form {
+    flex-direction: column;
+  }
+  .form input {
+    margin: 10px auto;
+    width: 80%;
+    padding: 10px 20px;
+  }
+  .form button {
+    margin: 10px auto;
+    width: 50%;
+  }
+  .item {
+    width: 275px;
+  }
+}
 /*-------------------------
        mobile device
  --------------------------*/
 
-@media only screen and (max-width: 668px) {
+@media only screen and (max-width: 678px) {
   /* header */
   .title {
     font-size: 1rem;
@@ -24,13 +65,13 @@
     height: 78px;
     font-size: 30px;
     line-height: 42px;
-}
-.left-details p {
-  width: 321px;
-  height: 65px;
-  line-height: 21px;
-  margin: 30px auto;
-}
+  }
+  .left-details p {
+    width: 321px;
+    height: 65px;
+    line-height: 21px;
+    margin: 30px auto;
+  }
   .right-photo {
     height: 257px;
     width: 257px;
@@ -40,27 +81,30 @@
     width: 202px;
     height: 190px;
   }
-/* e-commerce */
-
-.e-commerce {
-  margin: 2rem 5px;
-  gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
-}
-/* section */
-.items {
-  grid-template-columns: repeat(1, 1fr);
-}
-.item {
-    padding: 2rem 1rem 0rem 1rem;
+  /* e-commerce */
+  section {
     width: 100%;
+  }
+  .e-commerce {
+    margin: 2rem 5px;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* section */
+  .items {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+  .item {
+    padding: 2rem 1rem 0rem 1rem;
+    width: 80%;
   }
   /* mega menu */
   .menu-items {
     margin: 10px;
     width: 100%;
     gap: 5px;
-}
+  }
   .it-h {
     font-size: 14px;
     border-bottom: 2px solid palevioletred;
@@ -68,21 +112,8 @@
   .it {
     font-size: 11px;
   }
-  /* form */
-
-  .form {
-    flex-direction: column;
-}
-.form input {
-  margin: 10px auto;
-  width: 80%;
-  padding: 10px 20px;
-}
-.form button {
-  margin: 10px auto;
-  width: 90%;
-}
-/* footer */
-
-
+  .form button {
+    margin: 10px auto;
+    width: 85%;
+  }
 }

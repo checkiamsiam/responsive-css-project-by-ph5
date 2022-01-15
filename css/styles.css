@@ -88,6 +88,7 @@ header {
   background-repeat: no-repeat;
 }
 .right-photo img {
+  cursor: pointer;
   transition: 1s;
 }
 .banner:hover .right-photo img {
@@ -108,18 +109,17 @@ header {
 }
 /* section */
 section {
-  width: 80%;
-  margin: 0 5%;
+  width: 98%;
 }
 .head {
   cursor: pointer;
-  margin: 0 auto;
+  margin: 1rem auto;
   font-weight: 600;
   font-size: 28px;
-  line-height: 60px;
+  line-height: 43px;
   color: var(--main-color);
   width: fit-content;
-  border-bottom: 2px dotted pink;
+  border-bottom: 10px dotted rgb(247, 136, 155);
 }
 .items {
   display: grid;
@@ -127,7 +127,7 @@ section {
 }
 .item {
   padding: 2rem 2rem 0rem 2rem;
-  margin: 5px;
+  margin: 5px auto;
   width: 329px;
   height: 460px;
   border-radius: 5px;
@@ -230,7 +230,7 @@ section {
   width: 30%;
   border-radius: 10px;
   padding: 0rem 2rem;
-  box-shadow: 1px 1px 100px 0px palevioletred;
+  box-shadow: 1px 1px 100px 0px darkgray;
 }
 input:focus {
   outline: none;
@@ -263,7 +263,7 @@ footer h1 {
   font-size: 24px;
   line-height: 36px;
 }
-footer h1 span{
+footer h1 span {
   color: var(--main-color);
 }
 footer h6 {
