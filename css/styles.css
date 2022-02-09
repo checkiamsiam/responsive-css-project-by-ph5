@@ -91,9 +91,9 @@ header {
   cursor: pointer;
   transition: 1s;
 }
-.banner:hover .right-photo img {
+/* .banner:hover .right-photo img {
   transform: skew(-5deg, 5deg);
-}
+} */
 /* sites */
 
 .e-commerce {
